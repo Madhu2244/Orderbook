@@ -1,0 +1,7 @@
+Package: boost-numeric-conversion
+Version: 1.83.0
+Depends: boost-config, boost-conversion, boost-core, boost-mpl, boost-preprocessor, boost-throw-exception, boost-type-traits, boost-vcpkg-helpers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 655a3c96f1f98d48266d6726ae49611d92cc73629c6e3979d61abd9be0065891
+Description: Boost numeric_conversion module

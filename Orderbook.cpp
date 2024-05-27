@@ -315,6 +315,8 @@ Trades Orderbook::AddOrder(OrderPointer order)
 	}
 
 	orders_.insert({ order->GetOrderId(), OrderEntry{ order, iterator } });
+
+	std::cout << "Order Inserted!" << std::endl;
 	
 	OnOrderAdded(order);
 	

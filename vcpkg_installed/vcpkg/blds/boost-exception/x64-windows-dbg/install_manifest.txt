@@ -1,0 +1,1 @@
+C:/Users/madhu/Documents/Programming/Orderbook/Orderbook/vcpkg_installed/vcpkg/pkgs/boost-exception_x64-windows/debug/lib/libboost_exception-vc143-mt-gd-x64-1_83.lib

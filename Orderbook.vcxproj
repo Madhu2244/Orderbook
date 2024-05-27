@@ -106,6 +106,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Users\madhu\Documents\Programming\Orderbook\Orderbook\vcpkg_installed\x64-windows\include;C:\Users\madhu\Documents\Programming\Orderbook\Orderbook\vcpkg_installed\x64-windows\bin;C:\Users\madhu\Documents\Programming\Orderbook\Orderbook\packages\boost_1_61_0\boost_1_61_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\madhu\Documents\Programming\Orderbook\Orderbook\vcpkg_installed\x64-windows\include;C:\Users\madhu\Documents\Programming\Orderbook\Orderbook\vcpkg_installed\x64-windows\bin;C:\Users\madhu\Documents\Programming\Orderbook\Orderbook\packages\boost_1_61_0\boost_1_61_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,6 +135,7 @@
     <ClCompile Include="Orderbook.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Client.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="LevelInfo.h" />
     <ClInclude Include="Order.h" />
@@ -140,6 +143,7 @@
     <ClInclude Include="OrderbookLevelInfos.h" />
     <ClInclude Include="OrderModify.h" />
     <ClInclude Include="OrderType.h" />
+    <ClInclude Include="Server.h" />
     <ClInclude Include="Side.h" />
     <ClInclude Include="Trade.h" />
     <ClInclude Include="TradeInfo.h" />

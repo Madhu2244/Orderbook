@@ -1,0 +1,8 @@
+Package: boost-build
+Version: 1.83.0
+Depends: boost-uninstall
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c12202c8de11180242d0728f005469ce887b3162ec198088cc5f7b919974fd88
+Description: Boost.Build
+Status: install ok half-installed

@@ -1,0 +1,7 @@
+Package: boost-logic
+Version: 1.83.0
+Depends: boost-config, boost-core, boost-vcpkg-helpers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: da50a0c563ddb53ef2a4d1af2ee85d365304dd1bd920a0f0813a86a6f4cddc3f
+Description: Boost logic module

@@ -1,0 +1,8 @@
+Package: boost-endian
+Version: 1.83.0
+Depends: boost-config, boost-core, boost-static-assert, boost-type-traits, boost-vcpkg-helpers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 851b56e8b8e2010fcc89117cd667816b916cb99a48349a29f38e432383927491
+Description: Boost endian module
+Status: install ok half-installed

@@ -1,0 +1,7 @@
+Package: boost-preprocessor
+Version: 1.83.0
+Depends: boost-vcpkg-helpers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d243b28f33020aec769be3d169bbb50d8383a9635b6bb5a5576254f22df3ab13
+Description: Boost preprocessor module
